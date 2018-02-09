@@ -9,11 +9,13 @@
 <h1>Welcome!</h1>
 <p>Soon you can use this page to randomise chaos tokens for the Arkham Horror Card Game</p>
 
+<p id="demo"></p>
 <!--<button name="button">Give me a chaos token!</button>-->
-<button onclick="window.randomTokenEasy()">Easy</button>
-<button onclick="window.randomTokenStandard()">Standard</button>
-<button onclick="window.randomTokenHard()">Hard</button>
-<button onclick="window.randomTokenExpert()">Expert</button>
+<button onclick="const tokenEasy = window.randomTokenEasy(); displayEasy(tokenEasy)">Easy</button>
+<button onclick="const tokenStandard = window.randomTokenStandard(); displayStandard(tokenStandard)">Standard</button>
+<button onclick="const tokenHard = window.randomTokenHard(); displayHard(tokenHard)">Hard</button>
+<button onclick="const tokenExpert = window.randomTokenExpert(); displayExpert(tokenExpert)">Expert</button>
+
 
 </body>
 </html>
