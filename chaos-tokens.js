@@ -76,3 +76,9 @@ const tokenNameExpert = [
   "Tentacle - Instant fail.",
   "Elder Sign - Refer to your character card for resolution."
 ]
+
+if (typeof module !== 'undefined') {
+  module.exports = {
+    tokenNameEasy, tokenNameStandard, tokenNameHard, tokenNameExpert
+  }
+}
