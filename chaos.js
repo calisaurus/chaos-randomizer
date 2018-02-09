@@ -1,3 +1,47 @@
+window.randomTokenEasy = () => {
+  const randomIndex = Math.floor(Math.random() * tokenNameEasy.length)
+  const randomToken = tokenNameEasy[randomIndex]
+  console.log(randomToken)
+  return randomToken;
+}
+
+displayEasy = (a) => {
+  document.getElementById("demo").innerHTML = a;
+}
+
+window.randomTokenStandard = () => {
+  const randomIndex = Math.floor(Math.random() * tokenNameStandard.length)
+  const randomToken = tokenNameStandard[randomIndex]
+  console.log(randomToken)
+  return randomToken;
+}
+
+displayStandard = (a) => {
+  document.getElementById("demo").innerHTML = a;
+}
+
+window.randomTokenHard = () => {
+  const randomIndex = Math.floor(Math.random() * tokenNameHard.length)
+  const randomToken = tokenNameHard[randomIndex]
+  console.log(randomToken)
+  return randomToken;
+}
+
+displayHard = (a) => {
+  document.getElementById("demo").innerHTML = a;
+}
+
+window.randomTokenExpert = () => {
+  const randomIndex = Math.floor(Math.random() * tokenNameExpert.length)
+  const randomToken = tokenNameExpert[randomIndex]
+  console.log(randomToken)
+  return randomToken;
+}
+
+displayExpert = (a) => {
+  document.getElementById("demo").innerHTML = a;
+}
+
 const tokenNameEasy = [
   "+1",
   "+1",
@@ -17,17 +61,6 @@ const tokenNameEasy = [
   "Elder Sign - Refer to your character card for resolution."
 ]
 
-window.randomTokenEasy = () => {
-  const randomIndex = Math.floor(Math.random() * tokenNameEasy.length)
-  const randomToken = tokenNameEasy[randomIndex]
-  console.log(randomToken)
-  return randomToken;
-}
-
-displayEasy = (a) => {
-  document.getElementById("demo").innerHTML = a;
-}
-
 const tokenNameStandard = [
   "+1",
   "0",
@@ -46,17 +79,6 @@ const tokenNameStandard = [
   "Tentacle - Instant fail.",
   "Elder Sign - Refer to your character card for resolution."
 ]
-
-window.randomTokenStandard = () => {
-  const randomIndex = Math.floor(Math.random() * tokenNameStandard.length)
-  const randomToken = tokenNameStandard[randomIndex]
-  console.log(randomToken)
-  return randomToken;
-}
-
-displayStandard = (a) => {
-  document.getElementById("demo").innerHTML = a;
-}
 
 const tokenNameHard = [
   "0",
@@ -78,17 +100,6 @@ const tokenNameHard = [
   "Elder Sign - Refer to your character card for resolution."
 ]
 
-window.randomTokenHard = () => {
-  const randomIndex = Math.floor(Math.random() * tokenNameHard.length)
-  const randomToken = tokenNameHard[randomIndex]
-  console.log(randomToken)
-  return randomToken;
-}
-
-displayHard = (a) => {
-  document.getElementById("demo").innerHTML = a;
-}
-
 const tokenNameExpert = [
   "0",
   "-1",
@@ -109,14 +120,3 @@ const tokenNameExpert = [
   "Tentacle - Instant fail.",
   "Elder Sign - Refer to your character card for resolution."
 ]
-
-window.randomTokenExpert = () => {
-  const randomIndex = Math.floor(Math.random() * tokenNameExpert.length)
-  const randomToken = tokenNameExpert[randomIndex]
-  console.log(randomToken)
-  return randomToken;
-}
-
-displayExpert = (a) => {
-  document.getElementById("demo").innerHTML = a;
-}
