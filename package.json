@@ -1,1 +1,23 @@
-"homepage": "http://localhost:8080"
+{
+  "name": "chaos-randomizer",
+  "version": "1.0.0",
+  "description": "Chaos token randomizer for Arkham Horror: The Card Game",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hannahbunce/chaos-randomizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hannahbunce/chaos-randomizer/issues"
+  },
+  "homepage": "https://github.com/hannahbunce/chaos-randomizer#readme"
+}
